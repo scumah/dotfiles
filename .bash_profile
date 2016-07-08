@@ -43,6 +43,19 @@ alias rc="rails console"
 
 alias myroutes="rake routes | grep"
 
+# Returns path of first finder window
+function pfd() {
+  osascript 2>/dev/null <<EOF
+    tell application "Finder"
+      return POSIX path of (target of window 1 as alias)
+    end tell
+EOF
+}
+
+# CDs into pfd path
+function cdf() {
+  cd "$(pfd)"
+}
 
 # Git autocompletion script
 if [ -f ~/.git-completion.bash ]; then
