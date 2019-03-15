@@ -1,0 +1,63 @@
+"*":
+  "atom-ide-ui":
+    hyperclick:
+      darwinTriggerKeys: "altKey"
+  core:
+    customFileTypes:
+      "source.js.jsx": [
+        "jsx"
+      ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+  editor:
+    fontSize: 21
+    invisibles: {}
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?…"
+    preferredLineLength: 100
+    tabType: "soft"
+  "exception-reporting":
+    userId: "5837fa05-e46a-6654-2eef-a0d98027e702"
+  "ide-flowtype":
+    tryFlowBin: true
+  "linter-csslint":
+    executablePath: "/Users/scumah/.node/bin/csslint"
+  "linter-ui-default":
+    showPanel: true
+  "markdown-preview":
+    useGitHubStyle: true
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "rails-partials":
+    quoteStyle: "double"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".html.ruby.text":
+  editor:
+    preferredLineLength: 110
+".js.jsx.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-…"
+".js.rails.source source.jquery.js":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!#@%^&*|+=[]{}`?-…"
+    preferredLineLength: 110
+".js.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!#@%^&*|+=[]{}`?-…"
+".js.source.subtlegradient":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!#@%^&*|+=[]{}`?-…"
+".rails.rjs.ruby.source":
+  editor:
+    preferredLineLength: 110
+".rails.ruby.source":
+  editor:
+    preferredLineLength: 110
+".ruby.source.sql":
+  editor:
+    preferredLineLength: 110
