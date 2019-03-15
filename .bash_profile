@@ -9,8 +9,6 @@ bind '"\e[A":history-search-backward'
 bind '"\e[B":history-search-forward'
 
 # Alias
-alias m="mate ."
-alias s="sublime ."
 alias a="atom ."
 alias g="grep -nri"
 alias ..="cd .."
